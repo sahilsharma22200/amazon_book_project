@@ -4,12 +4,16 @@ import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 //import BookList from './component/BookLists';
 import BookLists from './component/BookLists';
+import BookListTemp from './component/BookListTemp';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <>
   <BookLists/>
+  <BookListTemp/>
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function
